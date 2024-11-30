@@ -1,15 +1,3 @@
-<?php
-session_start();
-require 'auth.php'; 
-// Disable caching to avoid redirection issues
-header("Cache-Control: no-cache, must-revalidate");
-header("Pragma: no-cache");
-
-if (!isset($_SESSION['student_id'])) {
-    header("Location: login.php");
-    exit();
-}
-?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
