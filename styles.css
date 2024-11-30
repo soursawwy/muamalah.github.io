@@ -1,0 +1,211 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Softer Menu Container */
+.menu-container {
+    background-color: #fff;
+    padding: 15px 0;
+    border-radius: 12px; /* Adds soft, rounded corners */
+    border: 1px solid #e0e0e0; /* Light grey border for subtlety */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Softer shadow */
+    margin-bottom: 20px; /* Adds some space below the navbar */
+}
+
+.menu-container {
+    background-color: #fff;
+    padding: 15px 0;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.menu-container {
+    background-color: #fff;
+    padding: 15px 0;
+    border-radius: 12px; /* Adds soft, rounded corners */
+    border: 1px solid #e0e0e0; /* Light grey border for subtlety */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Softer shadow */
+    margin-bottom: 20px; /* Adds some space below the navbar */
+}
+.categories-container {
+    position: relative; /* Position for absolute elements inside */
+    display: inline-block; /* Allow for positioning */
+}
+
+.categories-dropdown {
+    display: none; /* Hide by default */
+    position: absolute; /* Position relative to container */
+    background-color: white; /* Background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    z-index: 1; /* Above other elements */
+    min-width: 150px; /* Set minimum width */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.categories-dropdown a {
+    text-decoration: none; /* Remove underline */
+    color: #004b8d; /* Link color */
+    padding: 10px 15px; /* Padding */
+    display: block; /* Block display for clickable area */
+}
+
+.categories-dropdown a:hover {
+    background-color: #e0f7fa; /* Background on hover */
+    color: #004b8d; /* Darker color on hover */
+}
+
+.categories-container:hover .categories-dropdown {
+    display: block; /* Show on hover */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Adjust size as needed */
+    font-weight: bold; /* Make it bold */
+    color: #004b8d; /* Your desired color */
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu li {
+    list-style-type: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    padding: 8px 16px; /* Adds some padding to the menu links */
+    border-radius: 8px; /* Makes the links themselves feel softer */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background-color: #f0f0f0; /* Subtle hover background */
+    color: #004b8d; /* Color change on hover */
+}
+
+
+
+/* Main Section */
+.search-section {
+    padding: 50px 0;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.search-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #004b8d;
+}
+
+#search-bar {
+    padding: 15px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.featured-theses {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.thesis-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.thesis-card {
+    background-color: #f9fafb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.thesis-card:hover {
+    transform: translateY(-5px);
+}
+
+.thesis-card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #004b8d;
+}
+
+.thesis-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.thesis-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.thesis-card p {
+    margin: 5px 0;
+}
+
+.thesis-card a {
+    text-decoration: none;
+    color: #004b8d;
+}
+
+/* Footer */
+footer {
+    background-color: #004b8d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
